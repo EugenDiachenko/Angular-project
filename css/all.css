@@ -1,0 +1,278 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=cyrillic);
+* {
+    max-height: 30000px;
+}
+
+body {
+    margin: 0;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: none;
+    min-width: 1030px;
+    font: 14px/20px 'PT Sans', Arial, Helvetica, sans-serif;
+    color: #333;
+    background: url("../images/all-bg.png") repeat;
+}
+
+:-moz-placeholder {
+    color: #bababa;
+}
+
+::-moz-placeholder {
+    color: #bababa;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: #bababa;
+}
+
+::-webkit-input-placeholder {
+    color: #bababa;
+}
+
+.error:-moz-placeholder {
+    color: #f00;
+}
+
+.error::-moz-placeholder {
+    color: #f00;
+}
+
+.error:-ms-input-placeholder {
+    color: #f00;
+}
+
+.error::-webkit-input-placeholder {
+    color: #f00;
+}
+
+.error {
+    color: #f00;
+    border-color: #f00 !important;
+}
+
+.error input {
+    color: #f00;
+    border-color: #f00 !important;
+}
+
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+input:focus:-moz-placeholder {
+    color: transparent;
+}
+
+input:focus::-moz-placeholder {
+    color: transparent;
+}
+
+textarea:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+textarea:focus:-moz-placeholder {
+    color: transparent;
+}
+
+textarea:focus::-moz-placeholder {
+    color: transparent;
+}
+
+img {
+    border-style: none;
+}
+
+input,
+textarea {
+    outline: none;
+}
+
+a {
+    text-decoration: underline;
+    color: #1E90FF;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+input, textarea, select {
+    font: 100% arial, sans-serif;
+    vertical-align: middle;
+    color: #000;
+    overflow: auto;
+}
+
+label {
+    vertical-align: middle;
+}
+
+button, input {
+    width: auto;
+    overflow: visible;
+}
+
+fieldset {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+h2, h3, h4, h5, h6, b, strong, th {
+    font-weight: bold;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 200%;
+}
+
+h2 {
+    font-size: 150%;
+}
+
+h3 {
+    font-size: 120%;
+}
+
+h4 {
+    font-size: 110%;
+}
+
+h5 {
+    font-size: 100%;
+}
+
+h6 {
+    font-size: 90%;
+}
+
+i, cite, em, var, dfn, address {
+    font-style: italic;
+}
+
+u, ins {
+    text-decoration: underline;
+}
+
+s, strike, del {
+    text-decoration: line-through;
+}
+
+table, caption, tbody, tfoot, thead, tr, th, td {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    vertical-align: top;
+    text-align: center;
+}
+
+th {
+    border-color: #999;
+    text-align: center;
+    vertical-align: middle;
+}
+
+ul {
+    margin-left: 1px;
+}
+
+ul li, ol li {
+    list-style-position: inside;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+    border: 1px solid #ccc;
+    padding: 3px 10px;
+    line-height: normal;
+    background: #fff;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    -webkit-box-shadow: 0 0 3px #ccc;
+    -moz-box-shadow: 0 0 3px #ccc;
+    box-shadow: 0 0 3px #ccc;
+}
+
+textarea {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    line-height: 22px;
+    background: #fff;
+    width: 100%;
+    resize: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#wrapper{
+    width: 100%;
+    overflow: hidden;
+}
+#wrap1{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+@-webkit-keyframes tada {
+    0% {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+    }
+    10%, 20% {
+        transform: scale(0.9) rotate(-3deg);
+        -webkit-transform: scale(0.9) rotate(-3deg);
+    }
+    30%, 50%, 70%, 90% {
+        transform: scale(1.1) rotate(3deg);
+        -webkit-transform: scale(1.1) rotate(3deg);
+    }
+    40%, 60%, 80% {
+        transform: scale(1.1) rotate(-3deg);
+        -webkit-transform: scale(1.1) rotate(-3deg);
+    }
+    100% {
+        transform: scale(1) rotate(0deg);
+        -webkit-transform: scale(1) rotate(0deg);
+    }
+}
+
+@keyframes tada {
+    0% {
+        -ms-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform: scale(1);
+    }
+    10%, 20% {
+        -ms-transform: scale(0.9) rotate(-3deg);
+        transform: scale(0.9) rotate(-3deg);
+        -webkit-transform: scale(0.9) rotate(-3deg);
+    }
+    30%, 50%, 70%, 90% {
+        -ms-transform: scale(1.1) rotate(3deg);
+        transform: scale(1.1) rotate(3deg);
+        -webkit-transform: scale(1.1) rotate(3deg);
+    }
+    40%, 60%, 80% {
+        -ms-transform: scale(1.1) rotate(-3deg);
+        transform: scale(1.1) rotate(-3deg);
+        -webkit-transform: scale(1.1) rotate(-3deg);
+    }
+    100% {
+        -ms-transform: scale(1) rotate(0deg);
+        transform: scale(1) rotate(0deg);
+        -webkit-transform: scale(1) rotate(0deg);
+    }
+}
